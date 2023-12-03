@@ -1,0 +1,6 @@
+chatgpt
+dados
+decisao
+tarefas
+redes
+neurais

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #48FF2A;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #474747;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caixa02{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 90%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+    font-size: 0.9rem;
+}
+.text01{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ gap: 120px;
+ align-items: flex-start;
+justify-content: flex-start;
+line-height: 130%;
+}
+
+
+.text02{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   justify-content: flex-start;
+   gap: 30vh;
+   line-height: 130%;
+}
+
+.text02 p{
+    width: 50%;
+}
+.relogio{
+    line-height: 130%;
+    gap: 5vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+}
+
+#time{
+    
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+.caixa03{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10vh;
+
+}
+.loading{
+    line-height: 130%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50%;
+}
+.loading img{
+    width: 50%;
+    
+}
+.cont{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+}
+.butao{
+    margin-top: 20px;
+    
+}
+button{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: solid white 3px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+}

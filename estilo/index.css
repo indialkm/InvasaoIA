@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagem/fundo_iniciall.jpg");
+    background-size: cover;
+    background-position: 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.caixa01{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botao{
+    background-color: black;
+    border-radius: 50px;
+    width: 50%;
+    padding: 30px;
+    margin: 2%;
+    font-family: 'Press Start 2P', cursive;
+    color: #48FF2A;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif ;
+
+    margin-top: 90px;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+a{
+    color: #48FF2A;
+    text-decoration: none;
+}

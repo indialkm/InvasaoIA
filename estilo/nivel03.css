@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Ultra&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../imagem/forca_n3_01_C.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.metade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.metade02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.robozin{
+    margin-top: 3%;
+    position: relative;
+    bottom: 0;
+    width: 60%;
+}
+.caixa1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    padding:10% ;
+    color: white;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+}
+
+#letra{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #161616;
+    color: #fff;
+    border: 3px solid white;
+    height: 50px;
+    width: 50px;
+}
+
+#letra:focus {
+    font-family: 'Press Start 2P', cursive;
+    color: #48FF2A;
+    border: 5px solid white;
+}
+
+/*barra*/
+
+.barra {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    border: white solid 5px;
+}
+
+.barra div {
+    margin: 5px;
+    height: 90%;
+    border-radius: 50px;
+    background-color: #48FF2A;
+    transition: width 0.5s;
+}
+
+
+p{
+    line-height: 1.5; 
+    text-align: center
+}
+#botao{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.caixapalavra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
